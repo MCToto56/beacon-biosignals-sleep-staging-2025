@@ -1,0 +1,81 @@
+Validation accuracy: 0.8148
+Validation macro F1: 0.7028
+              precision    recall  f1-score   support
+
+           0      0.912     0.888     0.900       465
+           1      0.370     0.224     0.279        76
+           2      0.739     0.936     0.826       596
+           3      0.951     0.857     0.902       273
+           4      0.817     0.484     0.608       221
+
+    accuracy                          0.815      1631
+   macro avg      0.758     0.678     0.703      1631
+weighted avg      0.817     0.815     0.805      1631
+
+
+Validation accuracy: 0.8271
+Validation macro F1: 0.7169
+              precision    recall  f1-score   support
+
+           0      0.922     0.916     0.919       465
+           1      0.419     0.237     0.303        76
+           2      0.751     0.936     0.833       596
+           3      0.952     0.864     0.906       273
+           4      0.822     0.502     0.624       221
+
+    accuracy                          0.827      1631
+   macro avg      0.773     0.691     0.717      1631
+weighted avg      0.828     0.827     0.817      1631
+
+Validation accuracy: 0.8246
+Validation macro F1: 0.7138
+              precision    recall  f1-score   support
+
+           0      0.920     0.916     0.918       465
+           1      0.450     0.237     0.310        76
+           2      0.745     0.940     0.831       596
+           3      0.959     0.861     0.907       273
+           4      0.809     0.480     0.602       221
+
+    accuracy                          0.825      1631
+   macro avg      0.777     0.687     0.714      1631
+weighted avg      0.826     0.825     0.813      1631
+
+Train accuracy: 1.0000 | Train macro F1: 1.0000
+Val   accuracy: 0.6235 | Val   macro F1: 0.5033
+
+
+Train accuracy: 0.9228 | Train macro F1: 0.9050
+Val   accuracy: 0.8173 | Val   macro F1: 0.7258
+
+Train accuracy: 0.9012 | Train macro F1: 0.8754
+Val   accuracy: 0.8136 | Val   macro F1: 0.7309
+
+coupe features 
+Train accuracy: 0.8962 | Train macro F1: 0.8689
+Val   accuracy: 0.8136 | Val   macro F1: 0.7341
+
+toutes features : features 3
+Train accuracy: 0.9009 | Train macro F1: 0.8753
+Val   accuracy: 0.8087 | Val   macro F1: 0.7298
+
+Train accuracy: 0.8794 | Train macro F1: 0.8480
+Val   accuracy: 0.8099 | Val   macro F1: 0.7336
+
+seuil kept_indexes à 0.001
+Train accuracy: 0.8775 | Train macro F1: 0.8453
+Val   accuracy: 0.8124 | Val   macro F1: 0.7333
+
+morlex wavlet seuil kept_indexes à 0.001
+Train accuracy: 0.8828 | Train macro F1: 0.8522
+Val   accuracy: 0.7854 | Val   macro F1: 0.7023
+
+en enlevant les features redondantes bd, pfd,kfd, n3_amp_gt75
+Train accuracy: 0.8812 | Train macro F1: 0.8484
+Val   accuracy: 0.7701 | Val   macro F1: 0.6843
+
+rajouter les correlation? avec avt et ap mais pas gr différence
+ou cv
+
+
+
